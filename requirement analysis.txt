@@ -1,0 +1,15 @@
+Requirements:
+IVR(interactive voice response) in UI(User interface)
+Auto correction
+Complete elimination of keyboard
+Database and web support
+APIs for speech-to-text and text-tospeech
+Authentication and security
+Mail synchronisation
+Send and recieve command and acknowledgement
+Notification for any kind of failure
+Adaptable (Keep it simple)
+Reliability
+Affordability
+Platform independent 
+

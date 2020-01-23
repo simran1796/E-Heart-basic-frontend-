@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name= viewport content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+        <script>
+        function send()
+              {alert("You need consultation");}
+</script></head>
+<title>Diagnosis</title>
+<body background="fp_back.jpg">
+<header><div class="main-content-header">
+<h2><span class="colorchange">Please answer these questions for diagnosis</span></h2>
+<hr><form  method="POST">
+<label><h4>1.Chest pain type:</h4></label>
+<input type="radio" name="c1" value="acute">Acute</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c1" value="chronic" onclick="send()" >Chronic</input>
+<label><h4>2.Cholestrol level:</h4></label>
+<input type="radio" name="c2" value="below">Below 100mg/dl</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c2" value="greater" onclick="send()" >Above 100mg/dl</input>
+<label><h4>3.Do you smoke?</h4></label>
+<input type="radio" name="c3" value="no">No</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c3" value="yes" onclick="send()" >Yes</input>
+<label><h4>4.Abnormal BP Level?</h4></label>
+<input type="radio" name="c4" value="no">No</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c4" value="yes" onclick="send()" >Yes</input>
+<label><h4>5.Skin color gray or blue?</h4></label>
+<input type="radio" name="c5" value="no">No</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c5" value="yes" onclick="send()" >Yes</input>
+<label><h4>6.Fatigue or Dizziness:</h4></label>
+<input type="radio" name="c6" value="not regular">Not regular</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c6" value="regular" onclick="send()" >Regular</input>
+<label><h4>7.Rate of hearbeat:</h4></label>
+<input type="radio" name="c7" onclick="send()">Slow</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c7">Medium</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c7" onclick="send()">Racing</input>
+<label><h4>8.Shortening of breath?</h4></label>
+<input type="radio" name="c8" value="no">No</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c8" value="yes" onclick="send()" >Yes</input>
+<label><h4>9.Dry or persistent cough?</h4></label>
+<input type="radio" name="c9" value="no">No</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" name="c9" value="yes" onclick="send()" >Yes</input>
+</form><hr>
+<a href="w9.html"><h3><span class="colorchange">If you got any alert box click on this text.</span></h3></a>
+<a href="w8.html"><h3><span class="colorchange">If you didn't got any alert box click on this text.</span></h3></a>
+</div></header>
+</body>
+</html>
